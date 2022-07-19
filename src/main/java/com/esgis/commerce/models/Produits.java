@@ -9,6 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import javax.persistence.Id;
 import java.util.Date;
 import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

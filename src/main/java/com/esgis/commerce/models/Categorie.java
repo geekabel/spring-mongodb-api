@@ -14,11 +14,11 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Categorie {
+
     @Id
     private String id;
     private String nom;
     private String description;
-
 
     @DBRef
     private List<Produits> produits;
